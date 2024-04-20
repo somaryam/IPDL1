@@ -22,7 +22,7 @@ public class DemoApplication {
 }
 
 @RestController
-@RequestMapping("/dic_student_name")
+@RequestMapping("/mariama_sow")
 class DemoController {
 	@Value("${fullname: Mariama Sow}")
 	private String fullname;
